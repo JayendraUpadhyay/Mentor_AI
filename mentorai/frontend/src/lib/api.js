@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://mentor-ai-gqga.onrender.com";
 
 async function handleResponse(res) {
   if (!res.ok) {
